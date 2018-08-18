@@ -1,0 +1,21 @@
+
+
+
+<input [disabled]=false id="{{myId}}" type="text" value="abhishek">
+
+
+<p *ngIf="showcontent" > show comntent</p>
+
+<ul *ngFor = "let fruit of fruits ">
+  <li >
+
+    {{fruit}}
+  </li>
+</ul>
+
+<div [ngSwitch]="color">
+  
+    <div *ngSwitchCase="'red'">You picked red color</div>
+    <div *ngSwitchCase="'white'">You picked white color</div>
+  </div>
+
