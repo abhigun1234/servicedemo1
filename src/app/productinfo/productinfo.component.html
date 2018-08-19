@@ -1,0 +1,11 @@
+
+
+<button (click)="getProductDetails()" >show data</button>
+
+<ul *ngFor = " let product of productdetails ">
+<li >
+{{product.name}}
+{{product.price}}
+{{product.description}}
+</li>
+</ul>
